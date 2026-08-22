@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Research data
+data/*
+!data/README.md
+
+# Medical imaging files
+*.dcm
+*.nii
+*.nii.gz
+
+# Large model/checkpoint files
+*.pt
+*.pth
+*.ckpt
